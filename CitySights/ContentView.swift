@@ -21,6 +21,9 @@ struct ContentView: View {
             }
         }
         .padding()
+        .onAppear(perform: {
+            print(Bundle.main.infoDictionary?["API_KEY"] as? String)
+        })
     }
 }
 
