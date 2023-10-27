@@ -14,6 +14,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9509510B2AEC4F3A0035A28F /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		9509510C2AEC524E0035A28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		959922012AD13C83004F9F63 /* CitySights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959922042AD13C83004F9F63 /* CitySightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightsApp.swift; sourceTree = "<group>"; };
 		959922062AD13C83004F9F63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		959922032AD13C83004F9F63 /* CitySights */ = {
 			isa = PBXGroup;
 			children = (
+				9509510C2AEC524E0035A28F /* Info.plist */,
+				9509510B2AEC4F3A0035A28F /* Config.xcconfig */,
 				959922042AD13C83004F9F63 /* CitySightsApp.swift */,
 				959922062AD13C83004F9F63 /* ContentView.swift */,
 				959922082AD13C85004F9F63 /* Assets.xcassets */,
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		9599220D2AD13C85004F9F63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9509510B2AEC4F3A0035A28F /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +215,7 @@
 		};
 		9599220E2AD13C85004F9F63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9509510B2AEC4F3A0035A28F /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = H9VH4L373A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CitySights/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = H9VH4L373A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CitySights/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
