@@ -16,6 +16,11 @@ struct CitySights: App {
         WindowGroup {
             HomeView()
                 .environment(model)
+                .fullScreenCover(isPresented: Binding.constant(true)) {
+                    //TODO on dismiss
+                } content: {
+                    OnboardingView()
+                }
         }
     }
 }
